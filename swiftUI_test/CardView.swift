@@ -18,6 +18,7 @@ struct CardView: View {
             Text("Project Manager")
             Text("Special Projects")
             }
+            
             Image("Eirik")
         }
     }
