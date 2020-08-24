@@ -29,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
         CardView()
     }
 }
+// skal begynne på views with modifiers
