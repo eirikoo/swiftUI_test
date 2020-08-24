@@ -19,7 +19,7 @@ struct CardView: View {
             Text("Special Projects")
             }
             
-            Image("Eirik")
+            Image("Google")
         }
     }
 }
