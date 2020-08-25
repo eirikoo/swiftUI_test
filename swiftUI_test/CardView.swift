@@ -13,13 +13,19 @@ struct CardView: View {
     var body: some View {
         
         HStack {
-            VStack{
+            VStack(alignment: .leading, spacing: 2.0){
             Text("Eirik Østensvik")
+                .font(.system(size: 25))
+                .fontWeight(.semibold)
             Text("Project Manager")
+                .font(.body)
+                .fontWeight(.medium)
             Text("Special Projects")
+                .font(.body)
+                .foregroundColor(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
             }
-            
-            Image("Google")
+            Spacer()
+            Image("card2")
         }
     }
 }
@@ -29,4 +35,5 @@ struct ContentView_Previews: PreviewProvider {
         CardView()
     }
 }
-// skal begynne på views with modifiers
+// changing hstack - begynne her
+// https://learnappmaking.com/create-uis-views-modifiers-swiftui/
