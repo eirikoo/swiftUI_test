@@ -26,7 +26,14 @@ struct CardView: View {
             }
             Spacer()
             Image("card2")
+            .cornerRadius(5)
         }
+        .frame(maxWidth: 300)
+        .padding()
+        .background(Color.white)
+        .cornerRadius(20)
+        .shadow(radius: 20)
+        
     }
 }
 
