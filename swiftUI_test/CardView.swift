@@ -42,5 +42,5 @@ struct ContentView_Previews: PreviewProvider {
         CardView()
     }
 }
-// changing hstack - begynne her
+
 // https://learnappmaking.com/create-uis-views-modifiers-swiftui/
